@@ -6,13 +6,7 @@ title: Support
 
 Contact us at [screen-translate@proton.me](mailto:screen-translate@proton.me).
 
-<button class="copy-button" type="button" aria-label="Copy email address" onclick="copyEmail(this)">
-  <svg viewBox="0 0 16 16" aria-hidden="true">
-    <rect x="5.5" y="5.5" width="8" height="8" rx="1.5"></rect>
-    <path d="M10.5 5.5v-2A1.5 1.5 0 0 0 9 2H3.5A1.5 1.5 0 0 0 2 3.5V9A1.5 1.5 0 0 0 3.5 10.5h2"></path>
-  </svg>
-  <span data-copy-label aria-live="polite">Copy</span>
-</button>
+<button class="copy-button" type="button" aria-label="Copy email address" onclick="copyEmail(this)"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="5.5" y="5.5" width="8" height="8" rx="1.5"></rect><path d="M10.5 5.5v-2A1.5 1.5 0 0 0 9 2H3.5A1.5 1.5 0 0 0 2 3.5V9A1.5 1.5 0 0 0 3.5 10.5h2"></path></svg><span data-copy-label aria-live="polite">Copy</span></button>
 
 <style>
 .copy-button {
